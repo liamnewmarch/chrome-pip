@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome PIP",
+    "description": "Activate Picture-in-Picture",
+    "version": "2022.01.25",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Activate Picture-in-Picture"
+    },
+    "background": {
+        "service_worker": "service_worker.js"
+    }
+}
